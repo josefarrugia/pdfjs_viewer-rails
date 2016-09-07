@@ -7143,7 +7143,7 @@ window.PDFView = PDFViewerApplication; // obsolete name, using it as an alias
 
 
 var HOSTED_VIEWER_ORIGINS = ['null',
-  'http://mozilla.github.io', 'https://mozilla.github.io', 'http://virtualfair.advancingaccess.ac.uk'];
+  'http://mozilla.github.io', 'https://mozilla.github.io', 'http://virtualfair.advancingaccess.ac.uk', 'http://*.advancingaccess.ac.uk'];
 function validateFileURL(file) {
   try {
     var viewerOrigin = new URL(window.location.href).origin || 'null';
